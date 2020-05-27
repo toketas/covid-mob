@@ -10,6 +10,13 @@ export const Container = styled(LinearGradient).attrs({
   overflow: scroll; 
 `;
 
-export const CountryPicker = styled.View``;
+export const Footer = styled.View`
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  height: 30px;
+`;
 
-export const Chart = styled.View``;
+export const FooterText = styled.Text`
+  color: #fff;
+`;
